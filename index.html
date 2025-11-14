@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>iYOUnic — AI + AR Smart Mirror for Beauty Retail</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Optional: Icon CDN (Lucide) -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    /* Basic smooth fade for hero background */
+    .hero-bg {
+      background-size: cover;
+      background-position: center;
+      filter: saturate(115%);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+  <!-- HERO SECTION -->
+  <header class="relative overflow-hidden min-h-[70vh] flex items-center">
+    <div class="absolute inset-0 hero-bg" style="background-image:url('https://images.unsplash.com/photo-1524253482453-3fed8d2fe12b?auto=format&fit=crop&w=1600&q=60');"></div>
+    <div class="absolute inset-0 bg-white/40 backdrop-blur-sm"></div>
+
+    <div class="relative max-w-4xl mx-auto px-6 py-20">
+      <div class="bg-white/80 p-8 rounded-3xl shadow-xl">
+        <h1 class="text-4xl sm:text-5xl font-bold">iYOUnic — AI + AR Smart Mirror for Beauty Retail</h1>
+        <p class="mt-4 text-lg">Real-time personalized makeup looks, realistic AR try-ons, influencer techniques, and product intelligence — all at scale.</p>
+        <div class="mt-6 flex gap-4">
+          <a href="#contact" class="px-6 py-3 rounded-full bg-pink-600 text-white font-semibold hover:bg-pink-500">Request a Demo</a>
+          <a href="#why" class="px-6 py-3 rounded-full border bg-white">Why iYOUnic?</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- VALUE PROPS -->
+  <section class="max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-3 gap-8">
+    <div class="bg-white p-6 rounded-2xl shadow">
+      <div class="h-12 w-12 bg-pink-100 rounded-md flex items-center justify-center">💄</div>
+      <h3 class="mt-4 font-semibold text-lg">Personalized Looks</h3>
+      <p class="mt-2 text-gray-600">AI analyzes tone, texture, shape, and occasion for tailored looks — from subtle to full glam.</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-2xl shadow">
+      <div class="h-12 w-12 bg-pink-100 rounded-md flex items-center justify-center">✨</div>
+      <h3 class="mt-4 font-semibold text-lg">True-to-Life AR</h3>
+      <p class="mt-2 text-gray-600">Realistic color, texture, and movement-sensitive AR makeup rendering — section by section.</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-2xl shadow">
+      <div class="h-12 w-12 bg-pink-100 rounded-md flex items-center justify-center">🎥</div>
+      <h3 class="mt-4 font-semibold text-lg">Influencer Techniques</h3>
+      <p class="mt-2 text-gray-600">Step-by-step tutorials, product pros/cons, and guided application flows customers can follow live.</p>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="max-w-7xl mx-auto px-6 py-16 grid lg:grid-cols-2 gap-12 items-center">
+    <div>
+      <h2 class="text-3xl font-bold">How iYOUnic Works</h2>
+      <ol class="mt-6 space-y-4 text-gray-700 list-decimal list-inside">
+        <li><strong>Capture:</strong> Smart Mirror captures facial topology and skin attributes.</li>
+        <li><strong>Analyze:</strong> AI determines undertone, texture, and ideal shades.</li>
+        <li><strong>Apply AR:</strong> Section-by-section, true-to-texture makeup rendering.</li>
+        <li><strong>Guide:</strong> Influencer-backed, step-based tutorials and product recommendations.</li>
+      </ol>
+    </div>
+
+    <img class="rounded-2xl shadow" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=1200&q=60" alt="Smart mirror" />
+  </section>
+
+  <!-- BRAND & INVESTOR SECTION -->
+  <section id="why" class="max-w-7xl mx-auto px-6 py-16 bg-white rounded-2xl shadow">
+    <h2 class="text-3xl font-bold">Why iYOUnic for Brands & Retailers</h2>
+
+    <div class="grid md:grid-cols-2 gap-10 mt-8">
+      <ul class="space-y-4 text-gray-700">
+        <li><strong>Increase conversion:</strong> AR try-ons consistently lift conversion by double digits.</li>
+        <li><strong>Higher AOV:</strong> Full-look recommendations increase basket size.</li>
+        <li><strong>Scalable content:</strong> Influencer tutorials auto-adapt to every face.</li>
+        <li><strong>Analytics:</strong> Shade engagement heatmaps, product preference trends, sales attribution.</li>
+      </ul>
+
+      <div class="grid grid-cols-2 gap-6 text-center">
+        <div class="p-4 bg-pink-50 rounded-lg">
+          <div class="text-2xl font-bold">15%+</div>
+          <div class="text-sm text-gray-600">Conversion Uplift</div>
+        </div>
+        <div class="p-4 bg-pink-50 rounded-lg">
+          <div class="text-2xl font-bold">22%+</div>
+          <div class="text-sm text-gray-600">Higher AOV</div>
+        </div>
+        <div class="p-4 bg-pink-50 rounded-lg">
+          <div class="text-2xl font-bold">30s</div>
+          <div class="text-sm text-gray-600">Avg. Try-on Time</div>
+        </div>
+        <div class="p-4 bg-pink-50 rounded-lg">
+          <div class="text-2xl font-bold">100k+</div>
+          <div class="text-sm text-gray-600">SKU Support</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="max-w-xl mx-auto px-6 py-20 text-center">
+    <h3 class="text-2xl font-bold">Contact Us</h3>
+    <p class="mt-3 text-gray-600">Request a demo or partnership details.</p>
+
+    <form class="mt-6 grid gap-3 text-left">
+      <input class="p-3 border rounded" placeholder="Name" />
+      <input class="p-3 border rounded" placeholder="Company" />
+      <input class="p-3 border rounded" placeholder="Email" />
+      <textarea class="p-3 border rounded" rows="4" placeholder="What are you looking for?"></textarea>
+      <button class="px-6 py-3 bg-pink-600 text-white rounded-full">Submit</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-10 text-center text-gray-500 text-sm">
+    © 2025 iYOUnic — AI + AR Smart Mirror for Beauty Retail
+  </footer>
+
+</body>
+</html>
